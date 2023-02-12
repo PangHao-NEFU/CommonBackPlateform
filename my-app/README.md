@@ -1,24 +1,6 @@
-# my-app
+# 通用电商后台管理系统
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+本项目是基于Vue2,ElementUI打造的通用电商前端后台管理系统,使用Vuex进行组件间通信,
+页面间通信采用Cookies,并使用动态路由进行权限管理,权限管理
+数据由后台发送,然后动态注册路由以及渲染页面,是非常入门的项目
+,下一步基于此项目进行vue3和ts,Element plus进行重构
